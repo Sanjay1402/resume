@@ -1,0 +1,98 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.top-section{
+    background-color: #04252c;
+    display: flex;
+    color: white;
+    height: 12em;
+}
+
+.top-section img{
+   border-radius: 30%;
+   height: 9em;
+   margin: auto;
+   border: 5px solid white;
+   
+}
+
+.top-section div{ 
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+ }
+
+.left-section{
+    background-color: slategray;
+    color: white;
+    width: 35%;
+    top: 0;
+}
+.contact p{
+   margin:0px;
+   padding: 0px;
+}
+
+.name{
+   margin: 0px;
+   padding: 0px;
+   font-size: 3em;
+}
+.main-section{
+    display: flex;
+    
+}
+.main-section h1{
+    margin: 0;
+}
+.right-section{
+    background-color: lavender;
+    justify-items: right;
+    flex: auto;
+    padding-bottom: 5em;
+    
+}
+
+.intro, .skills, .contact{
+    margin-top: 1rem;
+    margin-left: 1em;
+}
+
+.education, .certifications{
+    margin-top: 1.2rem;
+    margin-left: 1em;
+    margin-bottom: 0.2rem;    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+  
+}
+
+.right-section h1,h2,h3, p{
+    margin: 0px;
+    
+}
+
+.right-section h1{
+    margin-bottom: 0.2em;
+    margin-left: 0;
+}
+.right-section h2{
+    margin-left: 12px;
+    
+}
+.right-section h3{
+    margin-left: 12px;
+}
+.right-section p{
+    margin-left: 12px;
+    margin-bottom: 1em;
+    margin-top: 2px;
+}
+.contact p,a,i{
+    margin-top: 0.2rem;
+}
